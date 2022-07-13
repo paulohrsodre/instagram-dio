@@ -36,6 +36,24 @@ body {
     height: 50rem;
 }
 
+#slder {
+    height: 50rem;
+}
+
+#slider img {
+    opacity: 0;
+
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+.selected {
+    position: absolute;
+    object-fit: cover;
+}
+
 .instagram-continue {
     display: flex;
     align-items: center; /* horizontal */
